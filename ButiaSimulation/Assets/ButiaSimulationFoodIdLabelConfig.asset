@@ -14,40 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LabelEntries:
   - label: ycb_003_cracker_box
-    id: 0
-  - label: ycb_009_gelatin_box
     id: 1
-  - label: ycb_008_pudding_box
+  - label: ycb_009_gelatin_box
     id: 2
-  - label: ycb_010_potted_meat_can
+  - label: ycb_008_pudding_box
     id: 3
-  - label: ycb_006_mustard_bottle
+  - label: ycb_010_potted_meat_can
     id: 4
-  - label: ycb_018_plum
+  - label: ycb_006_mustard_bottle
     id: 5
-  - label: ycb_016_pear
+  - label: ycb_018_plum
     id: 6
-  - label: ycb_011_banana
+  - label: ycb_016_pear
     id: 7
-  - label: ycb_012_strawberry
+  - label: ycb_011_banana
     id: 8
-  - label: ycb_007_tuna_fish_can
+  - label: ycb_012_strawberry
     id: 9
-  - label: ycb_002_master_chef_can
+  - label: ycb_007_tuna_fish_can
     id: 10
-  - label: ycb_014_lemon
+  - label: ycb_002_master_chef_can
     id: 11
-  - label: ycb_004_sugar_box
+  - label: ycb_014_lemon
     id: 12
-  - label: ycb_005_tomato_soup_can
+  - label: ycb_004_sugar_box
     id: 13
-  - label: ycb_015_peach
+  - label: ycb_005_tomato_soup_can
     id: 14
-  - label: ycb_013_apple
+  - label: ycb_015_peach
     id: 15
-  - label: ycb_017_orange
+  - label: ycb_013_apple
     id: 16
-  - label: person_standing
+  - label: ycb_017_orange
     id: 17
+  - label: person_standing
+    id: 18
   autoAssignIds: 1
   startingLabelId: 1
