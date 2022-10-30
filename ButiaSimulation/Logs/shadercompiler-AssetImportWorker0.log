@@ -1,6 +1,3 @@
-Base path: '/mnt/hd/igormaurell/Unity/Hub/Editor/2020.3.19f1/Editor/Data', plugins path '/mnt/hd/igormaurell/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines'
-Cmd: initializeCompiler
-
-Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
-
-Quitting shader compiler process
+version https://git-lfs.github.com/spec/v1
+oid sha256:43b79e35fc00a2304ce9e9998986bf282b3095a33444cb5ccedf30032ebe70f2
+size 2570

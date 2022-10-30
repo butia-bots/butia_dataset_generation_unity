@@ -1,22 +1,3 @@
-using System;
-using UnityEngine;
-using UnityEngine.Perception.Randomization.Parameters;
-using UnityEngine.Perception.Randomization.Randomizers;
-
-[Serializable]
-[AddRandomizerMenu("Perception/My Light Randomizer")]
-public class MyLightRandomizer : Randomizer
-{
-    public FloatParameter lightIntensityParameter;
-
-    protected override void OnIterationStart()
-    {
-        var tags = tagManager.Query<MyLightRandomizerTag>();
-
-        foreach (var tag in tags)
-        {
-            var light = tag.GetComponent<Light>();            
-            light.intensity = lightIntensityParameter.Sample();            
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2d6bbd9d8a464c10e455f3883cf8a4e01f6e84dbd9f90e1156e10a843a4061b
+size 627
