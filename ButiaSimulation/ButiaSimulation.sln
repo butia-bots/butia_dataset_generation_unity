@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:11d8ad5c6bad70b5e7332d309edd58a9fb27a4e1dacb91ed9865250e8d9ad9a6
-size 1416
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D47B812D-A4BC-7C6C-C299-E04A50044BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{A8A1C812-3472-D0BB-6449-1DFB309AA327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{81BD39F7-9C0C-1B0E-7F87-55F15A51423C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D47B812D-A4BC-7C6C-C299-E04A50044BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47B812D-A4BC-7C6C-C299-E04A50044BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47B812D-A4BC-7C6C-C299-E04A50044BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47B812D-A4BC-7C6C-C299-E04A50044BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A1C812-3472-D0BB-6449-1DFB309AA327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A1C812-3472-D0BB-6449-1DFB309AA327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A1C812-3472-D0BB-6449-1DFB309AA327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A1C812-3472-D0BB-6449-1DFB309AA327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BD39F7-9C0C-1B0E-7F87-55F15A51423C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BD39F7-9C0C-1B0E-7F87-55F15A51423C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BD39F7-9C0C-1B0E-7F87-55F15A51423C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BD39F7-9C0C-1B0E-7F87-55F15A51423C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

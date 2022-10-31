@@ -1,3 +1,151 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2a4e4d239cd1866a3119b7fa23c13d86606830aa9c44bddefcf16815fa808e9b
-size 3191
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f09f279848e42cea259348b13bce4c5, type: 3}
+  m_Name: ButiaSimulationIdLabelConfig
+  m_EditorClassIdentifier: 
+  m_LabelEntries:
+  - label: person_standing
+    id: 1
+  - label: ycb_002_master_chef_can
+    id: 2
+  - label: ycb_003_cracker_box
+    id: 3
+  - label: ycb_004_sugar_box
+    id: 4
+  - label: ycb_005_tomato_soup_can
+    id: 5
+  - label: ycb_006_mustard_bottle
+    id: 6
+  - label: ycb_007_tuna_fish_can
+    id: 7
+  - label: ycb_008_pudding_box
+    id: 8
+  - label: ycb_009_gelatin_box
+    id: 9
+  - label: ycb_010_potted_meat_can
+    id: 10
+  - label: ycb_011_banana
+    id: 11
+  - label: ycb_012_strawberry
+    id: 12
+  - label: ycb_013_apple
+    id: 13
+  - label: ycb_014_lemon
+    id: 14
+  - label: ycb_015_peach
+    id: 15
+  - label: ycb_016_pear
+    id: 16
+  - label: ycb_017_orange
+    id: 17
+  - label: ycb_018_plum
+    id: 18
+  - label: ycb_019_pitcher_base
+    id: 19
+  - label: ycb_021_bleach_cleanser
+    id: 20
+  - label: ycb_022_windex_bottle
+    id: 21
+  - label: ycb_024_bowl
+    id: 22
+  - label: ycb_025_mug
+    id: 23
+  - label: ycb_026_sponge
+    id: 24
+  - label: ycb_029_plate
+    id: 25
+  - label: ycb_030_fork
+    id: 26
+  - label: ycb_031_spoon
+    id: 27
+  - label: ycb_033_spatula
+    id: 28
+  - label: ycb_040_large_marker
+    id: 29
+  - label: ycb_051_large_clamp
+    id: 30
+  - label: ycb_053_mini_soccer_ball
+    id: 31
+  - label: ycb_054_softball
+    id: 32
+  - label: ycb_055_baseball
+    id: 33
+  - label: ycb_056_tennis_ball
+    id: 34
+  - label: ycb_057_racquetball
+    id: 35
+  - label: ycb_058_golf_ball
+    id: 36
+  - label: ycb_059_chain
+    id: 37
+  - label: ycb_061_foam_brick
+    id: 38
+  - label: ycb_062_dice
+    id: 39
+  - label: ycb_063-a_marbles
+    id: 40
+  - label: ycb_063-b_marbles
+    id: 41
+  - label: ycb_065-a_cups
+    id: 42
+  - label: ycb_065-b_cups
+    id: 43
+  - label: ycb_065-c_cups
+    id: 44
+  - label: ycb_065-d_cups
+    id: 45
+  - label: ycb_065-e_cups
+    id: 46
+  - label: ycb_065-f_cups
+    id: 47
+  - label: ycb_065-g_cups
+    id: 48
+  - label: ycb_065-h_cups
+    id: 49
+  - label: ycb_065-i_cups
+    id: 50
+  - label: ycb_065-j_cups
+    id: 51
+  - label: ycb_070-a_colored_wood_blocks
+    id: 52
+  - label: ycb_070-b_colored_wood_blocks
+    id: 53
+  - label: ycb_071_nine_hole_peg_test
+    id: 54
+  - label: ycb_072-a_toy_airplane
+    id: 55
+  - label: ycb_072-b_toy_airplane
+    id: 56
+  - label: ycb_072-c_toy_airplane
+    id: 57
+  - label: ycb_072-d_toy_airplane
+    id: 58
+  - label: ycb_072-e_toy_airplane
+    id: 59
+  - label: ycb_073-a_lego_duplo
+    id: 60
+  - label: ycb_073-b_lego_duplo
+    id: 61
+  - label: ycb_073-c_lego_duplo
+    id: 62
+  - label: ycb_073-d_lego_duplo
+    id: 63
+  - label: ycb_073-e_lego_duplo
+    id: 64
+  - label: ycb_073-f_lego_duplo
+    id: 65
+  - label: ycb_073-g_lego_duplo
+    id: 66
+  - label: ycb_077_rubiks_cube
+    id: 67
+  autoAssignIds: 1
+  startingLabelId: 1

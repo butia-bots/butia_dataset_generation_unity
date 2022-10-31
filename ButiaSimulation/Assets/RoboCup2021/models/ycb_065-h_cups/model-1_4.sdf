@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b91c19f0febf61b41968c31e8bef537b598d701446329574b9d18b75fe39d65
-size 1226
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name='ycb_065-h_cups'>
+    <link name='body'>
+      <inertial>
+        <mass>0.017</mass>
+        <pose>0.00253584131889 0.0148085562138 0.0359343652012 0 0 0</pose>
+        <inertia>
+          <ixx>2.18790819254e-05</ixx>
+          <ixy>2.30147039343e-08</ixy>
+          <ixz>1.29471132969e-08</ixz>
+          <iyy>2.19072129345e-05</iyy>
+          <iyz>-1.0091338676e-07</iyz>
+          <izz>2.34372741785e-05</izz>
+        </inertia>
+      </inertial>
+      <visual name='ycb_065-h_cups_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_065-h_cups/meshes/textured.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='ycb_065-h_cups_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ycb_065-h_cups/meshes/nontextured.stl</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <kp>1e15</kp>
+              <kd>1e13</kd>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+  </model>
+</sdf>

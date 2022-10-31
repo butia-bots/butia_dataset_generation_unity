@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ec9b5be4105af49086f27cb4606d407d0a46ef5f4e26557cfbf53b6c27470a69
-size 492
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class FurnitureObject : MonoBehaviour
+{
+    /// <summary>
+    /// The 3D range designated for object placement
+    /// </summary>
+    [Tooltip("The anchor points in which objects will be placed.")]
+    public AnchorPoint[] anchors;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

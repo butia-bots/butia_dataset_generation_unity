@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:62250ce61f8ee1940cfed271dde973dca2395ac5d4b360e129b2391a590ce7e1
-size 595
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AnchorPoint : MonoBehaviour
+{
+
+    /// <summary>
+    /// The 3D range designated for object placement
+    /// </summary>
+    [Tooltip("The range in which objects will be placed. These should be positive numbers and sufficiently large in relation with the Separation Distance specified.")]
+    public Vector3 placementRange;
+
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

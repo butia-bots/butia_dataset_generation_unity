@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e01953df6255aef54b639e6c53c4ca11dc129450b0e1c25a9544d4a765061098
-size 71
+{
+	"displayName":"Tutorial Files",
+	"createSeparatePackage": false
+}

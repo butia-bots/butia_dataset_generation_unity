@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1a2005dec72a7c95f4a9c5fd337dbaf69e298e6ce4163bc23aa4684aa89536fa
-size 518
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DestroyOnInvisible : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (gameObject.transform.position.y < -10) {
+            gameObject.GetComponent<Rigidbody>().useGravity = false;
+        }
+        else {
+            gameObject.GetComponent<Rigidbody>().useGravity = true;
+        }
+    }
+}
