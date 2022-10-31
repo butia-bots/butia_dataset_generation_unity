@@ -634,7 +634,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: d92ef32394b5f474385d74b565a7bdd7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -960,8 +960,8 @@ GameObject:
   - component: {fileID: 1338807697}
   - component: {fileID: 1338807696}
   - component: {fileID: 1338807700}
-  - component: {fileID: 1338807701}
   - component: {fileID: 1338807702}
+  - component: {fileID: 1338807701}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -1002,7 +1002,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: a68228c24abfa2f4b8954d7b0148f799, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
