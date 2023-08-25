@@ -268,19 +268,322 @@ MonoBehaviour:
   - id: 6
   - id: 7
   - id: 8
+  configuration: {fileID: 0}
   constants:
     randomSeed: 539662031
+    startIteration: 0
+    iterationCount: 100
+    framesPerIteration: 1
     totalIterations: 10000
     instanceCount: 1
     instanceIndex: 0
-    framesPerIteration: 1
+  m_ProgressPercentage: 0
   references:
     version: 1
     00000000:
+      type: {class: ForegroundObjectPlacementRandomizer2, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Assembly-CSharp}
+      data:
+        m_Enabled: 1
+        collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
+        depth: 0.1
+        separationDistance: 0.5
+        placementArea: {x: 2.4, y: 1.8}
+        prefabs:
+          collapsed: 0
+          probabilities:
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          - 0.014925373
+          uniform: 1
+          m_Sampler:
+            id: 9
+          m_Categories:
+          - {fileID: 5763220535963970316, guid: b872ef9acb59f0eb3afc63b2f6db4d88, type: 3}
+          - {fileID: 6319892328060433562, guid: 3ad471ec061af967e95fbb4343dd4303, type: 3}
+          - {fileID: 1819496862231310790, guid: 3058a39ed24f4e6eb8837b12b103a668, type: 3}
+          - {fileID: 719905842847337818, guid: 5c8383ab41b2f500a8346533710d2a5a, type: 3}
+          - {fileID: 1766162700008334889, guid: 7c0d65b29d47a3e3e857729febf80afe, type: 3}
+          - {fileID: 4994644153027616679, guid: c25ed6632642b9bbf91e8033ce67cfcd, type: 3}
+          - {fileID: 4461660185048137515, guid: f845f1293488cd57da28291e8fe26fc5, type: 3}
+          - {fileID: 1471835691957586383, guid: 216ba3ae778f726bc9a8ebb5eea86b66, type: 3}
+          - {fileID: 1199463108659402953, guid: c05ffc049b48fe5fb8e3c308d989e073, type: 3}
+          - {fileID: 1503675938346252608, guid: 21abce98534ba1da1bc818cfdf55ce58, type: 3}
+          - {fileID: 1966125083604041742, guid: 2889631fc09b7808bb78126195e99790, type: 3}
+          - {fileID: 2456550672860731413, guid: f850989181eb50b8b9ad998b519ace26, type: 3}
+          - {fileID: 6557801134559724660, guid: 7d158688f56d3ac97a840116c9c58ca9, type: 3}
+          - {fileID: 5671079865932913150, guid: 3bb1bd3a029f720df91cc755d76f5394, type: 3}
+          - {fileID: 8984202853733740742, guid: 2d191dbed0b478db6b0447e0eb07e485, type: 3}
+          - {fileID: 1874831360124094386, guid: 54f129cd3575da1dc9d4db926b4c31ef, type: 3}
+          - {fileID: 6357684521697633032, guid: 1f7b002d450509f8bbd34211c2ec9a1c, type: 3}
+          - {fileID: 1193200015894212395, guid: 13d7622832557b1fc8eca8aa236a8c92, type: 3}
+          - {fileID: 6094283254114635297, guid: cd53a8f3bbda5e8c6a2514a3eb177c39, type: 3}
+          - {fileID: 1963067569640725999, guid: 5fd7e63aba98579d1baefe25b3933a8b, type: 3}
+          - {fileID: 2161601573757800736, guid: 1c1281320225d2bea9b4ef9c132577f2, type: 3}
+          - {fileID: 4422925818583217385, guid: 920205b9e6d874230a978ed20e9276c3, type: 3}
+          - {fileID: 1009041697240980728, guid: b6307fbc0794bb0b4ba22cdbd24b3364, type: 3}
+          - {fileID: 3306274013766413846, guid: 9edc518aa1bbff29e92a118fc878805c, type: 3}
+          - {fileID: 9104925762545996735, guid: 5760dc6d6db39ade8b506f72dd444927, type: 3}
+          - {fileID: 7332508419694578809, guid: 876c185dbb44a9ed388b3ca6d878de56, type: 3}
+          - {fileID: 2656747026027693317, guid: eefe5cc362369255d9cbdbc909e601fe, type: 3}
+          - {fileID: 6243777402581977769, guid: aa5da1b449c461bbcbc7aa2c8ea31bb4, type: 3}
+          - {fileID: 114346606948184619, guid: e6969703e94add3238e158981060a293, type: 3}
+          - {fileID: 2125448388016211566, guid: b81f4644b8bb2db48859cfe34428ecc9, type: 3}
+          - {fileID: 5779039389242966415, guid: 2cbeac8b929d1902faee829aa3605ebc, type: 3}
+          - {fileID: 1632422013033599439, guid: 4791409e49813771c807d8105bbdd123, type: 3}
+          - {fileID: 2879472429153130634, guid: 0f0f07a09cc655825a7890c192a819ac, type: 3}
+          - {fileID: 6154945862375546663, guid: 9d80b7741c541b9dd92232c64bcc149b, type: 3}
+          - {fileID: 1606138495933436082, guid: 59dd83a08d57dfc02bcd0b1b11796306, type: 3}
+          - {fileID: 1145962090254760697, guid: 9094f84d08545f063b759cdb7be786e5, type: 3}
+          - {fileID: 5848763554271728922, guid: a246c5ee736d4162d8aa8e917fda5130, type: 3}
+          - {fileID: 8800555364957502927, guid: 56cd0f5d3f8ef8bf58a83708cc83fcc5, type: 3}
+          - {fileID: 37438224866989540, guid: 02567206b0236ec60ace5e9a67c14c95, type: 3}
+          - {fileID: 3407081393425974239, guid: 739577ad78c5a2e0b8f75b836783dd77, type: 3}
+          - {fileID: 4534363146516908666, guid: 33d47061403c17eb48bb2642cefcf4a4, type: 3}
+          - {fileID: 3212614866655725817, guid: 98b64446587fb240986faee158abf4af, type: 3}
+          - {fileID: 6552772180500394187, guid: 74c255f362462c49389eb2f5983fd703, type: 3}
+          - {fileID: 816915259527402973, guid: 3769c5101c35483b5b73c824ca377714, type: 3}
+          - {fileID: 8723559592870849868, guid: 955d20f1567a07e14bacfbd6d9978ca3, type: 3}
+          - {fileID: 3431971833041373711, guid: 2408bf2cdc1b1ea91bc43b2eb7ce2cb6, type: 3}
+          - {fileID: 8307524501019935159, guid: f6a29509584e8f48f8e33d9ef0eb09a4, type: 3}
+          - {fileID: 8773614982289531646, guid: dcb170e10092ab48b824c34d54a178ec, type: 3}
+          - {fileID: 1832142704832699042, guid: ca04503b510f47dbe91443a82a7f3528, type: 3}
+          - {fileID: 6278710721087762459, guid: aba486cb02ee0201a8b2ce0822e081da, type: 3}
+          - {fileID: 1661814565346062814, guid: fdf43a30a166df392bbd30ed2588a3ad, type: 3}
+          - {fileID: 3969507325211193311, guid: 4738c8d4d4b805f0ea27a7553bfc92b4, type: 3}
+          - {fileID: 6543117695106705986, guid: 6cb71c1b61672a68893b799da3f7fe7f, type: 3}
+          - {fileID: 1810885417745974943, guid: 558102ff080dc04cfa20459d833ab3bb, type: 3}
+          - {fileID: 2714809083693683005, guid: 5c7f45ad6300cc56487aef28740f3366, type: 3}
+          - {fileID: 4966377465668469126, guid: c1f0f73b22e6c25229385e179e723613, type: 3}
+          - {fileID: 7684573511392602437, guid: 48bfc2d4885bde0a79e4f36fad83f826, type: 3}
+          - {fileID: 3638987308081340523, guid: 4e9c47d219fe119b88297730cf4e38de, type: 3}
+          - {fileID: 4685644550761720246, guid: 6a53f674aedde6314a75d05b9e001a6c, type: 3}
+          - {fileID: 8436416406923333484, guid: cd356166ade6e75f5b95c98ade6e825b, type: 3}
+          - {fileID: 6074679533139177720, guid: 21f9f267bdd696da5974a0c83988f195, type: 3}
+          - {fileID: 6185314861879185312, guid: a4f2999b4964c1499ac077f6898c8f29, type: 3}
+          - {fileID: 3003904409946368756, guid: 9de4e33d47c49eba0afac1b4ed1ef6e2, type: 3}
+          - {fileID: 7913243388596853891, guid: da9d8b0284cb8565f98f92bd1bab7ff0, type: 3}
+          - {fileID: 8388359301745659396, guid: 7f257cecbe1d242de8beb35b8605402f, type: 3}
+          - {fileID: 366349328489350076, guid: cf9060670ad02fa35818dda3179f7579, type: 3}
+          - {fileID: 6965675837798840379, guid: 4d940561c183e90e9bc34c6ecd35d726, type: 3}
+    00000001:
+      type: {class: ForegroundObjectPlacementRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
+      data:
+        m_Enabled: 1
+        collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
+        depth: 0
+        separationDistance: 0.5
+        placementArea: {x: 2.4, y: 1.8}
+        prefabs:
+          collapsed: 0
+          probabilities:
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          - 0.015151516
+          uniform: 1
+          m_Sampler:
+            id: 10
+          m_Categories:
+          - {fileID: 6319892328060433562, guid: 3ad471ec061af967e95fbb4343dd4303, type: 3}
+          - {fileID: 1819496862231310790, guid: 3058a39ed24f4e6eb8837b12b103a668, type: 3}
+          - {fileID: 719905842847337818, guid: 5c8383ab41b2f500a8346533710d2a5a, type: 3}
+          - {fileID: 1766162700008334889, guid: 7c0d65b29d47a3e3e857729febf80afe, type: 3}
+          - {fileID: 4994644153027616679, guid: c25ed6632642b9bbf91e8033ce67cfcd, type: 3}
+          - {fileID: 4461660185048137515, guid: f845f1293488cd57da28291e8fe26fc5, type: 3}
+          - {fileID: 1471835691957586383, guid: 216ba3ae778f726bc9a8ebb5eea86b66, type: 3}
+          - {fileID: 1199463108659402953, guid: c05ffc049b48fe5fb8e3c308d989e073, type: 3}
+          - {fileID: 1503675938346252608, guid: 21abce98534ba1da1bc818cfdf55ce58, type: 3}
+          - {fileID: 1966125083604041742, guid: 2889631fc09b7808bb78126195e99790, type: 3}
+          - {fileID: 2456550672860731413, guid: f850989181eb50b8b9ad998b519ace26, type: 3}
+          - {fileID: 6557801134559724660, guid: 7d158688f56d3ac97a840116c9c58ca9, type: 3}
+          - {fileID: 5671079865932913150, guid: 3bb1bd3a029f720df91cc755d76f5394, type: 3}
+          - {fileID: 8984202853733740742, guid: 2d191dbed0b478db6b0447e0eb07e485, type: 3}
+          - {fileID: 1874831360124094386, guid: 54f129cd3575da1dc9d4db926b4c31ef, type: 3}
+          - {fileID: 6357684521697633032, guid: 1f7b002d450509f8bbd34211c2ec9a1c, type: 3}
+          - {fileID: 1193200015894212395, guid: 13d7622832557b1fc8eca8aa236a8c92, type: 3}
+          - {fileID: 6094283254114635297, guid: cd53a8f3bbda5e8c6a2514a3eb177c39, type: 3}
+          - {fileID: 1963067569640725999, guid: 5fd7e63aba98579d1baefe25b3933a8b, type: 3}
+          - {fileID: 2161601573757800736, guid: 1c1281320225d2bea9b4ef9c132577f2, type: 3}
+          - {fileID: 4422925818583217385, guid: 920205b9e6d874230a978ed20e9276c3, type: 3}
+          - {fileID: 1009041697240980728, guid: b6307fbc0794bb0b4ba22cdbd24b3364, type: 3}
+          - {fileID: 3306274013766413846, guid: 9edc518aa1bbff29e92a118fc878805c, type: 3}
+          - {fileID: 9104925762545996735, guid: 5760dc6d6db39ade8b506f72dd444927, type: 3}
+          - {fileID: 7332508419694578809, guid: 876c185dbb44a9ed388b3ca6d878de56, type: 3}
+          - {fileID: 2656747026027693317, guid: eefe5cc362369255d9cbdbc909e601fe, type: 3}
+          - {fileID: 6243777402581977769, guid: aa5da1b449c461bbcbc7aa2c8ea31bb4, type: 3}
+          - {fileID: 114346606948184619, guid: e6969703e94add3238e158981060a293, type: 3}
+          - {fileID: 2125448388016211566, guid: b81f4644b8bb2db48859cfe34428ecc9, type: 3}
+          - {fileID: 5779039389242966415, guid: 2cbeac8b929d1902faee829aa3605ebc, type: 3}
+          - {fileID: 1632422013033599439, guid: 4791409e49813771c807d8105bbdd123, type: 3}
+          - {fileID: 2879472429153130634, guid: 0f0f07a09cc655825a7890c192a819ac, type: 3}
+          - {fileID: 6154945862375546663, guid: 9d80b7741c541b9dd92232c64bcc149b, type: 3}
+          - {fileID: 1606138495933436082, guid: 59dd83a08d57dfc02bcd0b1b11796306, type: 3}
+          - {fileID: 1145962090254760697, guid: 9094f84d08545f063b759cdb7be786e5, type: 3}
+          - {fileID: 5848763554271728922, guid: a246c5ee736d4162d8aa8e917fda5130, type: 3}
+          - {fileID: 8800555364957502927, guid: 56cd0f5d3f8ef8bf58a83708cc83fcc5, type: 3}
+          - {fileID: 37438224866989540, guid: 02567206b0236ec60ace5e9a67c14c95, type: 3}
+          - {fileID: 3407081393425974239, guid: 739577ad78c5a2e0b8f75b836783dd77, type: 3}
+          - {fileID: 4534363146516908666, guid: 33d47061403c17eb48bb2642cefcf4a4, type: 3}
+          - {fileID: 3212614866655725817, guid: 98b64446587fb240986faee158abf4af, type: 3}
+          - {fileID: 6552772180500394187, guid: 74c255f362462c49389eb2f5983fd703, type: 3}
+          - {fileID: 816915259527402973, guid: 3769c5101c35483b5b73c824ca377714, type: 3}
+          - {fileID: 8723559592870849868, guid: 955d20f1567a07e14bacfbd6d9978ca3, type: 3}
+          - {fileID: 3431971833041373711, guid: 2408bf2cdc1b1ea91bc43b2eb7ce2cb6, type: 3}
+          - {fileID: 8307524501019935159, guid: f6a29509584e8f48f8e33d9ef0eb09a4, type: 3}
+          - {fileID: 8773614982289531646, guid: dcb170e10092ab48b824c34d54a178ec, type: 3}
+          - {fileID: 1832142704832699042, guid: ca04503b510f47dbe91443a82a7f3528, type: 3}
+          - {fileID: 6278710721087762459, guid: aba486cb02ee0201a8b2ce0822e081da, type: 3}
+          - {fileID: 1661814565346062814, guid: fdf43a30a166df392bbd30ed2588a3ad, type: 3}
+          - {fileID: 3969507325211193311, guid: 4738c8d4d4b805f0ea27a7553bfc92b4, type: 3}
+          - {fileID: 6543117695106705986, guid: 6cb71c1b61672a68893b799da3f7fe7f, type: 3}
+          - {fileID: 1810885417745974943, guid: 558102ff080dc04cfa20459d833ab3bb, type: 3}
+          - {fileID: 2714809083693683005, guid: 5c7f45ad6300cc56487aef28740f3366, type: 3}
+          - {fileID: 4966377465668469126, guid: c1f0f73b22e6c25229385e179e723613, type: 3}
+          - {fileID: 7684573511392602437, guid: 48bfc2d4885bde0a79e4f36fad83f826, type: 3}
+          - {fileID: 3638987308081340523, guid: 4e9c47d219fe119b88297730cf4e38de, type: 3}
+          - {fileID: 4685644550761720246, guid: 6a53f674aedde6314a75d05b9e001a6c, type: 3}
+          - {fileID: 8436416406923333484, guid: cd356166ade6e75f5b95c98ade6e825b, type: 3}
+          - {fileID: 6074679533139177720, guid: 21f9f267bdd696da5974a0c83988f195, type: 3}
+          - {fileID: 6185314861879185312, guid: a4f2999b4964c1499ac077f6898c8f29, type: 3}
+          - {fileID: 3003904409946368756, guid: 9de4e33d47c49eba0afac1b4ed1ef6e2, type: 3}
+          - {fileID: 7913243388596853891, guid: da9d8b0284cb8565f98f92bd1bab7ff0, type: 3}
+          - {fileID: 8388359301745659396, guid: 7f257cecbe1d242de8beb35b8605402f, type: 3}
+          - {fileID: 366349328489350076, guid: cf9060670ad02fa35818dda3179f7579, type: 3}
+          - {fileID: 6965675837798840379, guid: 4d940561c183e90e9bc34c6ecd35d726, type: 3}
+    00000002:
       type: {class: BackgroundObjectPlacementRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
       data:
         m_Enabled: 0
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         depth: 1
         layerCount: 2
         separationDistance: 0.06
@@ -300,7 +603,7 @@ MonoBehaviour:
           - 0.1
           uniform: 1
           m_Sampler:
-            id: 9
+            id: 11
           m_Categories:
           - {fileID: 6030332796725836435, guid: 7dd7f1e1f85b04c908d48829d22f4f8b, type: 3}
           - {fileID: 6016821248533432811, guid: 95c2ed58ec23643a698c890a152f30c8, type: 3}
@@ -312,11 +615,12 @@ MonoBehaviour:
           - {fileID: 5598400054666850249, guid: 2bda33803207144f1b850250904cd924, type: 3}
           - {fileID: 4016244083471174794, guid: b65643442652f4e5cac1ba8a138fe11b, type: 3}
           - {fileID: 1846734885985130355, guid: 02d0dd79e02e54b0497c611f55f79aff, type: 3}
-    00000001:
+    00000003:
       type: {class: TextureRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         texture:
           collapsed: 0
           probabilities:
@@ -5962,7 +6266,7 @@ MonoBehaviour:
           - 0.00017730496
           uniform: 1
           m_Sampler:
-            id: 10
+            id: 12
           m_Categories:
           - {fileID: 2800000, guid: a71ec18895fcbbe3faa8a2a947382964, type: 3}
           - {fileID: 2800000, guid: dedaae92e8e6bc9caaafa7702505125d, type: 3}
@@ -11604,316 +11908,22 @@ MonoBehaviour:
           - {fileID: 2800000, guid: f76cb643716a5312cb7fc8dc647d6276, type: 3}
           - {fileID: 2800000, guid: 3edb41d0847ad918093940b215de9ca7, type: 3}
           - {fileID: 2800000, guid: e4cba92d2b6e15ebbba76c1b7faa0548, type: 3}
-    00000002:
+    00000004:
       type: {class: HueOffsetRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         hueOffset:
           collapsed: 0
           value:
-            id: 11
-    00000003:
-      type: {class: ForegroundObjectPlacementRandomizer2, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Assembly-CSharp}
-      data:
-        m_Enabled: 1
-        collapsed: 0
-        depth: 0.1
-        separationDistance: 0.5
-        placementArea: {x: 2.4, y: 1.8}
-        prefabs:
-          collapsed: 0
-          probabilities:
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          - 0.014925373
-          uniform: 1
-          m_Sampler:
-            id: 12
-          m_Categories:
-          - {fileID: 5763220535963970316, guid: b872ef9acb59f0eb3afc63b2f6db4d88, type: 3}
-          - {fileID: 6319892328060433562, guid: 3ad471ec061af967e95fbb4343dd4303, type: 3}
-          - {fileID: 1819496862231310790, guid: 3058a39ed24f4e6eb8837b12b103a668, type: 3}
-          - {fileID: 719905842847337818, guid: 5c8383ab41b2f500a8346533710d2a5a, type: 3}
-          - {fileID: 1766162700008334889, guid: 7c0d65b29d47a3e3e857729febf80afe, type: 3}
-          - {fileID: 4994644153027616679, guid: c25ed6632642b9bbf91e8033ce67cfcd, type: 3}
-          - {fileID: 4461660185048137515, guid: f845f1293488cd57da28291e8fe26fc5, type: 3}
-          - {fileID: 1471835691957586383, guid: 216ba3ae778f726bc9a8ebb5eea86b66, type: 3}
-          - {fileID: 1199463108659402953, guid: c05ffc049b48fe5fb8e3c308d989e073, type: 3}
-          - {fileID: 1503675938346252608, guid: 21abce98534ba1da1bc818cfdf55ce58, type: 3}
-          - {fileID: 1966125083604041742, guid: 2889631fc09b7808bb78126195e99790, type: 3}
-          - {fileID: 2456550672860731413, guid: f850989181eb50b8b9ad998b519ace26, type: 3}
-          - {fileID: 6557801134559724660, guid: 7d158688f56d3ac97a840116c9c58ca9, type: 3}
-          - {fileID: 5671079865932913150, guid: 3bb1bd3a029f720df91cc755d76f5394, type: 3}
-          - {fileID: 8984202853733740742, guid: 2d191dbed0b478db6b0447e0eb07e485, type: 3}
-          - {fileID: 1874831360124094386, guid: 54f129cd3575da1dc9d4db926b4c31ef, type: 3}
-          - {fileID: 6357684521697633032, guid: 1f7b002d450509f8bbd34211c2ec9a1c, type: 3}
-          - {fileID: 1193200015894212395, guid: 13d7622832557b1fc8eca8aa236a8c92, type: 3}
-          - {fileID: 6094283254114635297, guid: cd53a8f3bbda5e8c6a2514a3eb177c39, type: 3}
-          - {fileID: 1963067569640725999, guid: 5fd7e63aba98579d1baefe25b3933a8b, type: 3}
-          - {fileID: 2161601573757800736, guid: 1c1281320225d2bea9b4ef9c132577f2, type: 3}
-          - {fileID: 4422925818583217385, guid: 920205b9e6d874230a978ed20e9276c3, type: 3}
-          - {fileID: 1009041697240980728, guid: b6307fbc0794bb0b4ba22cdbd24b3364, type: 3}
-          - {fileID: 3306274013766413846, guid: 9edc518aa1bbff29e92a118fc878805c, type: 3}
-          - {fileID: 9104925762545996735, guid: 5760dc6d6db39ade8b506f72dd444927, type: 3}
-          - {fileID: 7332508419694578809, guid: 876c185dbb44a9ed388b3ca6d878de56, type: 3}
-          - {fileID: 2656747026027693317, guid: eefe5cc362369255d9cbdbc909e601fe, type: 3}
-          - {fileID: 6243777402581977769, guid: aa5da1b449c461bbcbc7aa2c8ea31bb4, type: 3}
-          - {fileID: 114346606948184619, guid: e6969703e94add3238e158981060a293, type: 3}
-          - {fileID: 2125448388016211566, guid: b81f4644b8bb2db48859cfe34428ecc9, type: 3}
-          - {fileID: 5779039389242966415, guid: 2cbeac8b929d1902faee829aa3605ebc, type: 3}
-          - {fileID: 1632422013033599439, guid: 4791409e49813771c807d8105bbdd123, type: 3}
-          - {fileID: 2879472429153130634, guid: 0f0f07a09cc655825a7890c192a819ac, type: 3}
-          - {fileID: 6154945862375546663, guid: 9d80b7741c541b9dd92232c64bcc149b, type: 3}
-          - {fileID: 1606138495933436082, guid: 59dd83a08d57dfc02bcd0b1b11796306, type: 3}
-          - {fileID: 1145962090254760697, guid: 9094f84d08545f063b759cdb7be786e5, type: 3}
-          - {fileID: 5848763554271728922, guid: a246c5ee736d4162d8aa8e917fda5130, type: 3}
-          - {fileID: 8800555364957502927, guid: 56cd0f5d3f8ef8bf58a83708cc83fcc5, type: 3}
-          - {fileID: 37438224866989540, guid: 02567206b0236ec60ace5e9a67c14c95, type: 3}
-          - {fileID: 3407081393425974239, guid: 739577ad78c5a2e0b8f75b836783dd77, type: 3}
-          - {fileID: 4534363146516908666, guid: 33d47061403c17eb48bb2642cefcf4a4, type: 3}
-          - {fileID: 3212614866655725817, guid: 98b64446587fb240986faee158abf4af, type: 3}
-          - {fileID: 6552772180500394187, guid: 74c255f362462c49389eb2f5983fd703, type: 3}
-          - {fileID: 816915259527402973, guid: 3769c5101c35483b5b73c824ca377714, type: 3}
-          - {fileID: 8723559592870849868, guid: 955d20f1567a07e14bacfbd6d9978ca3, type: 3}
-          - {fileID: 3431971833041373711, guid: 2408bf2cdc1b1ea91bc43b2eb7ce2cb6, type: 3}
-          - {fileID: 8307524501019935159, guid: f6a29509584e8f48f8e33d9ef0eb09a4, type: 3}
-          - {fileID: 8773614982289531646, guid: dcb170e10092ab48b824c34d54a178ec, type: 3}
-          - {fileID: 1832142704832699042, guid: ca04503b510f47dbe91443a82a7f3528, type: 3}
-          - {fileID: 6278710721087762459, guid: aba486cb02ee0201a8b2ce0822e081da, type: 3}
-          - {fileID: 1661814565346062814, guid: fdf43a30a166df392bbd30ed2588a3ad, type: 3}
-          - {fileID: 3969507325211193311, guid: 4738c8d4d4b805f0ea27a7553bfc92b4, type: 3}
-          - {fileID: 6543117695106705986, guid: 6cb71c1b61672a68893b799da3f7fe7f, type: 3}
-          - {fileID: 1810885417745974943, guid: 558102ff080dc04cfa20459d833ab3bb, type: 3}
-          - {fileID: 2714809083693683005, guid: 5c7f45ad6300cc56487aef28740f3366, type: 3}
-          - {fileID: 4966377465668469126, guid: c1f0f73b22e6c25229385e179e723613, type: 3}
-          - {fileID: 7684573511392602437, guid: 48bfc2d4885bde0a79e4f36fad83f826, type: 3}
-          - {fileID: 3638987308081340523, guid: 4e9c47d219fe119b88297730cf4e38de, type: 3}
-          - {fileID: 4685644550761720246, guid: 6a53f674aedde6314a75d05b9e001a6c, type: 3}
-          - {fileID: 8436416406923333484, guid: cd356166ade6e75f5b95c98ade6e825b, type: 3}
-          - {fileID: 6074679533139177720, guid: 21f9f267bdd696da5974a0c83988f195, type: 3}
-          - {fileID: 6185314861879185312, guid: a4f2999b4964c1499ac077f6898c8f29, type: 3}
-          - {fileID: 3003904409946368756, guid: 9de4e33d47c49eba0afac1b4ed1ef6e2, type: 3}
-          - {fileID: 7913243388596853891, guid: da9d8b0284cb8565f98f92bd1bab7ff0, type: 3}
-          - {fileID: 8388359301745659396, guid: 7f257cecbe1d242de8beb35b8605402f, type: 3}
-          - {fileID: 366349328489350076, guid: cf9060670ad02fa35818dda3179f7579, type: 3}
-          - {fileID: 6965675837798840379, guid: 4d940561c183e90e9bc34c6ecd35d726, type: 3}
-    00000004:
-      type: {class: ForegroundObjectPlacementRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
-      data:
-        m_Enabled: 1
-        collapsed: 0
-        depth: 0
-        separationDistance: 0.5
-        placementArea: {x: 2.4, y: 1.8}
-        prefabs:
-          collapsed: 0
-          probabilities:
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          - 0.015151516
-          uniform: 1
-          m_Sampler:
             id: 13
-          m_Categories:
-          - {fileID: 6319892328060433562, guid: 3ad471ec061af967e95fbb4343dd4303, type: 3}
-          - {fileID: 1819496862231310790, guid: 3058a39ed24f4e6eb8837b12b103a668, type: 3}
-          - {fileID: 719905842847337818, guid: 5c8383ab41b2f500a8346533710d2a5a, type: 3}
-          - {fileID: 1766162700008334889, guid: 7c0d65b29d47a3e3e857729febf80afe, type: 3}
-          - {fileID: 4994644153027616679, guid: c25ed6632642b9bbf91e8033ce67cfcd, type: 3}
-          - {fileID: 4461660185048137515, guid: f845f1293488cd57da28291e8fe26fc5, type: 3}
-          - {fileID: 1471835691957586383, guid: 216ba3ae778f726bc9a8ebb5eea86b66, type: 3}
-          - {fileID: 1199463108659402953, guid: c05ffc049b48fe5fb8e3c308d989e073, type: 3}
-          - {fileID: 1503675938346252608, guid: 21abce98534ba1da1bc818cfdf55ce58, type: 3}
-          - {fileID: 1966125083604041742, guid: 2889631fc09b7808bb78126195e99790, type: 3}
-          - {fileID: 2456550672860731413, guid: f850989181eb50b8b9ad998b519ace26, type: 3}
-          - {fileID: 6557801134559724660, guid: 7d158688f56d3ac97a840116c9c58ca9, type: 3}
-          - {fileID: 5671079865932913150, guid: 3bb1bd3a029f720df91cc755d76f5394, type: 3}
-          - {fileID: 8984202853733740742, guid: 2d191dbed0b478db6b0447e0eb07e485, type: 3}
-          - {fileID: 1874831360124094386, guid: 54f129cd3575da1dc9d4db926b4c31ef, type: 3}
-          - {fileID: 6357684521697633032, guid: 1f7b002d450509f8bbd34211c2ec9a1c, type: 3}
-          - {fileID: 1193200015894212395, guid: 13d7622832557b1fc8eca8aa236a8c92, type: 3}
-          - {fileID: 6094283254114635297, guid: cd53a8f3bbda5e8c6a2514a3eb177c39, type: 3}
-          - {fileID: 1963067569640725999, guid: 5fd7e63aba98579d1baefe25b3933a8b, type: 3}
-          - {fileID: 2161601573757800736, guid: 1c1281320225d2bea9b4ef9c132577f2, type: 3}
-          - {fileID: 4422925818583217385, guid: 920205b9e6d874230a978ed20e9276c3, type: 3}
-          - {fileID: 1009041697240980728, guid: b6307fbc0794bb0b4ba22cdbd24b3364, type: 3}
-          - {fileID: 3306274013766413846, guid: 9edc518aa1bbff29e92a118fc878805c, type: 3}
-          - {fileID: 9104925762545996735, guid: 5760dc6d6db39ade8b506f72dd444927, type: 3}
-          - {fileID: 7332508419694578809, guid: 876c185dbb44a9ed388b3ca6d878de56, type: 3}
-          - {fileID: 2656747026027693317, guid: eefe5cc362369255d9cbdbc909e601fe, type: 3}
-          - {fileID: 6243777402581977769, guid: aa5da1b449c461bbcbc7aa2c8ea31bb4, type: 3}
-          - {fileID: 114346606948184619, guid: e6969703e94add3238e158981060a293, type: 3}
-          - {fileID: 2125448388016211566, guid: b81f4644b8bb2db48859cfe34428ecc9, type: 3}
-          - {fileID: 5779039389242966415, guid: 2cbeac8b929d1902faee829aa3605ebc, type: 3}
-          - {fileID: 1632422013033599439, guid: 4791409e49813771c807d8105bbdd123, type: 3}
-          - {fileID: 2879472429153130634, guid: 0f0f07a09cc655825a7890c192a819ac, type: 3}
-          - {fileID: 6154945862375546663, guid: 9d80b7741c541b9dd92232c64bcc149b, type: 3}
-          - {fileID: 1606138495933436082, guid: 59dd83a08d57dfc02bcd0b1b11796306, type: 3}
-          - {fileID: 1145962090254760697, guid: 9094f84d08545f063b759cdb7be786e5, type: 3}
-          - {fileID: 5848763554271728922, guid: a246c5ee736d4162d8aa8e917fda5130, type: 3}
-          - {fileID: 8800555364957502927, guid: 56cd0f5d3f8ef8bf58a83708cc83fcc5, type: 3}
-          - {fileID: 37438224866989540, guid: 02567206b0236ec60ace5e9a67c14c95, type: 3}
-          - {fileID: 3407081393425974239, guid: 739577ad78c5a2e0b8f75b836783dd77, type: 3}
-          - {fileID: 4534363146516908666, guid: 33d47061403c17eb48bb2642cefcf4a4, type: 3}
-          - {fileID: 3212614866655725817, guid: 98b64446587fb240986faee158abf4af, type: 3}
-          - {fileID: 6552772180500394187, guid: 74c255f362462c49389eb2f5983fd703, type: 3}
-          - {fileID: 816915259527402973, guid: 3769c5101c35483b5b73c824ca377714, type: 3}
-          - {fileID: 8723559592870849868, guid: 955d20f1567a07e14bacfbd6d9978ca3, type: 3}
-          - {fileID: 3431971833041373711, guid: 2408bf2cdc1b1ea91bc43b2eb7ce2cb6, type: 3}
-          - {fileID: 8307524501019935159, guid: f6a29509584e8f48f8e33d9ef0eb09a4, type: 3}
-          - {fileID: 8773614982289531646, guid: dcb170e10092ab48b824c34d54a178ec, type: 3}
-          - {fileID: 1832142704832699042, guid: ca04503b510f47dbe91443a82a7f3528, type: 3}
-          - {fileID: 6278710721087762459, guid: aba486cb02ee0201a8b2ce0822e081da, type: 3}
-          - {fileID: 1661814565346062814, guid: fdf43a30a166df392bbd30ed2588a3ad, type: 3}
-          - {fileID: 3969507325211193311, guid: 4738c8d4d4b805f0ea27a7553bfc92b4, type: 3}
-          - {fileID: 6543117695106705986, guid: 6cb71c1b61672a68893b799da3f7fe7f, type: 3}
-          - {fileID: 1810885417745974943, guid: 558102ff080dc04cfa20459d833ab3bb, type: 3}
-          - {fileID: 2714809083693683005, guid: 5c7f45ad6300cc56487aef28740f3366, type: 3}
-          - {fileID: 4966377465668469126, guid: c1f0f73b22e6c25229385e179e723613, type: 3}
-          - {fileID: 7684573511392602437, guid: 48bfc2d4885bde0a79e4f36fad83f826, type: 3}
-          - {fileID: 3638987308081340523, guid: 4e9c47d219fe119b88297730cf4e38de, type: 3}
-          - {fileID: 4685644550761720246, guid: 6a53f674aedde6314a75d05b9e001a6c, type: 3}
-          - {fileID: 8436416406923333484, guid: cd356166ade6e75f5b95c98ade6e825b, type: 3}
-          - {fileID: 6074679533139177720, guid: 21f9f267bdd696da5974a0c83988f195, type: 3}
-          - {fileID: 6185314861879185312, guid: a4f2999b4964c1499ac077f6898c8f29, type: 3}
-          - {fileID: 3003904409946368756, guid: 9de4e33d47c49eba0afac1b4ed1ef6e2, type: 3}
-          - {fileID: 7913243388596853891, guid: da9d8b0284cb8565f98f92bd1bab7ff0, type: 3}
-          - {fileID: 8388359301745659396, guid: 7f257cecbe1d242de8beb35b8605402f, type: 3}
-          - {fileID: 366349328489350076, guid: cf9060670ad02fa35818dda3179f7579, type: 3}
-          - {fileID: 6965675837798840379, guid: 4d940561c183e90e9bc34c6ecd35d726, type: 3}
     00000005:
       type: {class: RotationRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         rotation:
           collapsed: 0
           x:
@@ -11927,6 +11937,7 @@ MonoBehaviour:
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         rotation:
           collapsed: 0
           x:
@@ -11940,6 +11951,7 @@ MonoBehaviour:
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         lightIntensityParameter:
           collapsed: 0
           value:
@@ -11949,6 +11961,7 @@ MonoBehaviour:
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         placementZPosition: 0
         placementArea: {x: 2.4, y: 1.8}
         cameraZParameter:
@@ -11961,78 +11974,117 @@ MonoBehaviour:
         range:
           minimum: 0
           maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     0000000A:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     0000000B:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
-          minimum: -180
-          maximum: 180
+          minimum: 0
+          maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     0000000C:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     0000000D:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
-          minimum: 0
-          maximum: 1
+          minimum: -180
+          maximum: 180
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     0000000E:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     0000000F:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000010:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000011:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 0
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000012:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000013:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 0
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000014:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0.5
           maximum: 4
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000015:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: -2
           maximum: -1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
 --- !u!4 &574411064
 Transform:
   m_ObjectHideFlags: 0
@@ -12046,6 +12098,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &942088702
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 942088704}
+  - component: {fileID: 942088703}
+  m_Layer: 0
+  m_Name: _PerceptionSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &942088703
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942088702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ee903ff896bde4bb82aed4aec2bf61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endpoint:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: PerceptionEndpoint, ns: UnityEngine.Perception.GroundTruth.Consumers, asm: Unity.Perception.Runtime}
+      data:
+        capturesPerFile: 150
+        metricsPerFile: 150
+--- !u!4 &942088704
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942088702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1119844133
 GameObject:
@@ -12082,12 +12186,16 @@ MonoBehaviour:
   - id: 2
   - id: 3
   - id: 4
+  configuration: {fileID: 0}
   constants:
     randomSeed: 539662031
+    startIteration: 0
+    iterationCount: 100
+    framesPerIteration: 1
     totalIterations: 3000
     instanceCount: 1
     instanceIndex: 0
-    framesPerIteration: 1
+  m_ProgressPercentage: 0
   references:
     version: 1
     00000000:
@@ -12095,6 +12203,7 @@ MonoBehaviour:
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         depth: 0
         separationDistance: 1
         placementArea: {x: 4, y: 3}
@@ -12270,6 +12379,7 @@ MonoBehaviour:
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         rotation:
           collapsed: 0
           x:
@@ -12283,6 +12393,7 @@ MonoBehaviour:
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         lightIntensityParameter:
           collapsed: 0
           value:
@@ -12292,6 +12403,7 @@ MonoBehaviour:
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         texture:
           collapsed: 0
           probabilities:
@@ -12430,6 +12542,7 @@ MonoBehaviour:
       data:
         m_Enabled: 1
         collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         placementZPosition: 0
         placementArea: {x: 4, y: 3}
         cameraZParameter:
@@ -12442,42 +12555,63 @@ MonoBehaviour:
         range:
           minimum: 0
           maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000006:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000007:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000008:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     00000009:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0.5
           maximum: 3
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     0000000A:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
     0000000B:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: -3.3221
           maximum: -0.3
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
 --- !u!4 &1119844135
 Transform:
   m_ObjectHideFlags: 0
@@ -12593,6 +12727,7 @@ MonoBehaviour:
   m_Labelers:
   - id: 0
   - id: 1
+  ID: camera
   description: ButiaPerception
   captureRgbImages: 1
   firstCaptureFrame: 0
@@ -12600,7 +12735,7 @@ MonoBehaviour:
   manualSensorAffectSimulationTiming: 0
   simulationDeltaTime: 0.03
   framesBetweenCaptures: 0
-  showVisualizations: 0
+  showVisualizations: 1
   references:
     version: 1
     00000000:
@@ -12637,6 +12772,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
@@ -12654,7 +12790,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702464008}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e54e0ec64d980441aad4659d81371062, type: 3}
   m_Name: 
